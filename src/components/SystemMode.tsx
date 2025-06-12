@@ -18,7 +18,7 @@ const ThemeToggle = () => {
       className="p-2 rounded hover:bg-gray-200 dark:hover:bg-gray-700 transition"
     >
       {theme === 'dark' ? (
-        <Sun className="text-yellow-400" />
+        <Sun className="text-yellow-200" />
       ) : (
         <Moon className="text-gray-800" />
       )}
