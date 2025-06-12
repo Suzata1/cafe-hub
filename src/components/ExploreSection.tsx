@@ -40,7 +40,7 @@ const ExploreSection = () => {
     <div className='max-w-[1400px]  mx-auto'>
     <div className='flex justify-between items-center h-16   w-full'></div>
     <div className="px-6 py-10">
-      <h2 className="text-2xl font-bold text-red-500 mb-6 text-center  gap-4 ">Explore Categories</h2>
+      <h2 className="text-2xl font-bold text-red-500 mb-6 text-center  gap-4 ">Expldore Categories</h2>
       <div className="flex  gap-4">
         {socialMedias.map((social) => (
           <div
