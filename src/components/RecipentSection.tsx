@@ -6,7 +6,7 @@ const RecipentSection= () => {
   return (
     <div className='w-full bg-white'>
       <div className='max-w-[1400px] mx-auto px-6 py-10'>
-        <h2 className="text-2xl font-bold text-red-500 mb-6 text-center">
+        <h2 className="text-2xl font-bold text-red-600 mb-6 text-center">
           Make a Reservation
         </h2>
 
