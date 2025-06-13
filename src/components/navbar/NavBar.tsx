@@ -13,7 +13,7 @@ const socialMedias = [
 
 const NavBar = () => {
   const [sidebarOpen, setSidebarOpen] = useState(false);
-  const [location, setLocation] = useState('Butwal'); // ✅ Location state added
+  const [location, setLocation] = useState('London'); // ✅ Location state added
 
   const toggleSidebar = () => {
     setSidebarOpen(!sidebarOpen);
@@ -38,10 +38,10 @@ const NavBar = () => {
               value={location}
               onChange={(e) => setLocation(e.target.value)}
             >
-              <option>Butwal</option>
+              <option>Brazil</option>
               <option>Kathmandu</option>
-              <option>Pokhara</option>
-              <option>Chitwan</option>
+              <option>Nepal</option>
+              <option>China</option>
             </select>
 
             {/* Desktop Menu */}
