@@ -35,7 +35,7 @@ const TestimonialSection = () => {
      <div className='w-full bg-orange-50 '> <div className='max-w-[1400px] mx-auto'>
     <div className="flex flex-col md:flex-row items-center justify-between px-8 py-12 ">
         <h2 className='text-2xl font-bold text-red-500 mb-10 text-center'>Customer Testimonials</h2>
-        <div className='flex  justify-center gap-6'>
+        <div className='flex md:flex-row flex-col  justify-center gap-6'>
           {testimonials.map((item) => (
             <div key={item.id} className='bg-[#D63C06] text-white p-6 rounded shadow-md w-full h-[220px] text-center '>
               <div className='flex justify-center mb-3'>
