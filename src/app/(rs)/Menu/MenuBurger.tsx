@@ -34,7 +34,7 @@ const socialMedias = [
   },
 ];
 
-const MenuSection = () => {
+const MenuBurger = () => {
   return (
     <div className='bg-white   w-full'>
     <div className='max-w-[1400px]  mx-auto'>
@@ -68,4 +68,4 @@ const MenuSection = () => {
   );
 };
 
-export default MenuSection;
+export default MenuBurger;

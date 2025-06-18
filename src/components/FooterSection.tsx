@@ -4,9 +4,10 @@ import Image from 'next/image'
 
 const socialMedias = [
   { title: "Home", id: "1", href: "/" },
+  { title: "Menu", id: "3", href: "/menu" },
   { title: "Contact us", id: "2", href: "/contact-us" },
-  { title: "Blogs", id: "3", href: "/blogs" },
-  { title: "Service", id: "4", href: "/service" },
+  { title: "Online Ordering", id: "3", href: "/online ordering" },
+  { title: "About-Us", id: "4", href: "/about-us" },
 ];
 
 const FooterSection = () => {
@@ -22,7 +23,7 @@ const FooterSection = () => {
           />
         </div>
          {/* Navigation Links  */}
-        <div className='flex gap-6 mx-auto max-w-[600px]  justify-center md:justify-start'>
+        <div className='flex gap-6 mx-autho max-w-[600px]  justify-center md:justify-start'>
           {socialMedias.map((social, index) => (
             <Link key={index} href={social.href}>
               <span className="text-black  hover:text-orange-600 cursor-pointer font-medium text-center">

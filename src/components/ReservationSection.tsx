@@ -2,7 +2,7 @@
 import React from 'react';
 import Image from 'next/image';
 
-const RecipentSection= () => {
+const ReservationSection= () => {
   return (
     <div className='w-full bg-white'>
       <div className='max-w-[1400px] mx-auto px-6 py-10'>
@@ -25,4 +25,4 @@ const RecipentSection= () => {
   );
 };
 
-export default RecipentSection
+export default ReservationSection

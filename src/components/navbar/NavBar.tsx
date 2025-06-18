@@ -6,14 +6,15 @@ import React, { useState } from 'react'
 
 const socialMedias = [
   { title: "Home", id: "1", href: "/" },
+  { title: "Menu", id: "3", href: "/Menu" },
   { title: "Contact us", id: "2", href: "/contact-us" },
-  { title: "Blogs", id: "3", href: "/blogs" },
-  { title: "Service", id: "4", href: "/service" },
+  { title: "Online Ordering", id: "3", href: "/online-order" },
+  { title: "About-Us", id: "4", href: "/AboutUs" },
 ];
 
 const NavBar = () => {
   const [sidebarOpen, setSidebarOpen] = useState(false);
-  const [location, setLocation] = useState('London'); // ✅ Location state added
+  const [location, setLocation] = useState('London');
 
   const toggleSidebar = () => {
     setSidebarOpen(!sidebarOpen);
@@ -69,8 +70,17 @@ const NavBar = () => {
     <Menu onClick={toggleSidebar} className='cursor-pointer' />
   )}
 </div> */}
-
-
+{/* linking the page  */}
+{/* <div className='md:hidden block'>
+     <nav>
+      <ul>
+        <li><Link href="/">Home</Link></li>
+        <li><Link href="/menu">Menu</Link></li>   
+        <li><Link href="/contact-us">Contact us</Link></li>
+        <li><Link href="/about-us">AboutUs</Link></li>
+      </ul>
+    </nav>
+  </div> */}
       {/* Sidebar (mobile) */}
       
       <div className={`fixed top-0 left-0 h-full w-full bg-white text-black z-40 transform transition-transform duration-300 ${sidebarOpen ? 'translate-x-0' : '-translate-x-full'}`}>
@@ -88,7 +98,7 @@ const NavBar = () => {
       </div>
    
    
-      {/* Overlay */}
+     
       {sidebarOpen && (
         <div
           className="fixed inset-0 bg-black opacity-50 z-30"
@@ -98,5 +108,6 @@ const NavBar = () => {
     </>
   );
 };
+
 
 export default NavBar;
