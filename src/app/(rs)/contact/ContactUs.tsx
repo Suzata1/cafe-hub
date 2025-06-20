@@ -26,13 +26,9 @@ export default function ContactUsPage() {
       {/* Left Section */}
       <div className="text-left space-y-4">
         <h2 className="text-2xl md:text-3xl font-bold text-gray-800">
-          Let's get your order<br />from here!!
+          Lets get your order<br />from here!!
         </h2>
-        <img
-          src="/images/image 4.png"
-          alt="Free Delivery"
-          className="w-64 md:w-80"
-        />
+        <img src={"/images/free.png"} />
       </div>
 
       {/* Right Section - Form */}

@@ -14,10 +14,15 @@ export default function AboutUsPage() {
           <h2 className="text-2xl md:text-3xl font-semibold text-orange-600 mb-4">About Us</h2>
           <p className="text-lg leading-relaxed text-gray-800 font-bold  md:text-2xl">
             A cozy café serving <br/>
+
             delicious handmade <br/>
+
             burgers & cheesy pizzas,<br/>
+
             made fresh with love <br/>
+
             and perfect for<br/>
+            
              every craving and mood.<br/>
           </p>
         </div>
