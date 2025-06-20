@@ -7,9 +7,9 @@ import React, { useState } from 'react'
 const socialMedias = [
   { title: "Home", id: "1", href: "/" },
   { title: "Menu", id: "3", href: "/Menu" },
-  { title: "Contact us", id: "2", href: "/contact-us" },
+  { title: "Contact us", id: "2", href: "/contact" },
   { title: "Online Ordering", id: "3", href: "/online-order" },
-  { title: "About-Us", id: "4", href: "/AboutUs" },
+  { title: "About-Us", id: "4", href: "/about" },
 ];
 
 const NavBar = () => {
