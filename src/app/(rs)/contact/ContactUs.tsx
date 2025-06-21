@@ -28,7 +28,7 @@ export default function ContactUsPage() {
         <h2 className="text-2xl md:text-3xl font-bold text-gray-800">
           Lets get your order<br />from here!!
         </h2>
-        <img src={"/images/free.png"} />
+        <img src="/images/free.png" alt="Free Delivery"  className="w-64 md:w-80"/>
       </div>
 
       {/* Right Section - Form */}
