@@ -23,7 +23,7 @@ const FooterSection = () => {
           />
         </div>
          {/* Navigation Links  */}
-        <div className='flex gap-6 mx-autho max-w-[600px]  justify-center md:justify-start'>
+        <div className='flex gap-6  max-w-[600px]  justify-center md:justify-start'>
           {socialMedias.map((social, index) => (
             <Link key={index} href={social.href}>
               <span className="text-black  hover:text-orange-600 cursor-pointer font-medium text-center">
@@ -35,7 +35,6 @@ const FooterSection = () => {
           
         </div>
 
-        {/* Logo or Image */}
       
 
       </div>

@@ -18,7 +18,6 @@ const HeroSection=()=> {
         <h3 className='text-xl md:text-xl font-bold text-red-500'>Tasty-Healthy-Cruchly</h3>
       </div>
 
-      {/* Image section */}
       <div className='flex items-center'>
         <Image
           height={550}

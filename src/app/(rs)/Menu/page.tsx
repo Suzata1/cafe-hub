@@ -7,7 +7,7 @@ const categories = ['Burger', 'Main course', 'Pasta', 'Pastry'];
 export default function MenuPage() {
   return (
     <div className="flex p-8 gap-8">
-      {/* Sidebar */}
+     
       <div className="w-48 shadow-md rounded-lg bg-white p-4">
         <h2 className="font-bold text-red-600 text-lg mb-4">Food items</h2>
         <ul className="space-y-3">
@@ -24,7 +24,7 @@ export default function MenuPage() {
         </ul>
       </div>
 
-      {/* You can add default category items here if needed */}
+     
       <div className="text-gray-600 italic">
         ← Select a food category to explore delicious items.
       </div>

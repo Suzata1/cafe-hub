@@ -1,4 +1,4 @@
-import BurgerSection from '../component/BurgerSection';
+import BurgerSection from "./component/BurgerSection";
 
 
 export default function ItemPage({ params }: { params: { item: string } }) {
@@ -38,7 +38,7 @@ export default function ItemPage({ params }: { params: { item: string } }) {
       <h1 className="text-3xl font-bold mb-6 text-orange-600">Menu Item</h1>
 
       {componentMap[item] ? (
-        componentMap[item]() // render the component
+        componentMap[item]()
       ) : selectedItem ? (
         <div className="bg-orange-100 p-6 rounded shadow-md max-w-md">
           <h2 className="text-2xl font-semibold mb-2 text-red-700">{selectedItem.title}</h2>
