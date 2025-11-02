@@ -4,8 +4,7 @@ export default function OnlineOrderPage() {
   return (
     <div>
      
-     
-   <OnlineOrder/>
+<OnlineOrder />
     </div>
   );
 }

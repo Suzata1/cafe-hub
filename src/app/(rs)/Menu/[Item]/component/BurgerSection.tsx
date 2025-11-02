@@ -1,8 +1,4 @@
-'use client';
 import React from 'react';
-import Image from 'next/image';
-import Link from 'next/link';
-
 
 const burgerItems = [
   { name: "Classic Burger", img: "/images/burger1.png" },
@@ -11,8 +7,7 @@ const burgerItems = [
   { name: "Spicy Burger", img: "/images/burger4.png" },
 ];
 
- const BurgerSection = () => {
-
+const BurgerSection = () => {
   return (
     <div>
       <h2 className="text-3xl font-bold text-orange-600 mb-6">Our Burgers</h2>
@@ -27,4 +22,5 @@ const burgerItems = [
     </div>
   );
 }
-export default function BurgerSection()
+
+export default BurgerSection;
