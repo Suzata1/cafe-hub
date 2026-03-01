@@ -2,31 +2,28 @@
 
 import Link from 'next/link';
 
-const categories = ['Burger', 'Main course', 'Pasta', 'Pastry'];
-
 export default function MenuPage() {
-  return (
-    <div className="flex p-8 gap-8">
-     
-      <div className="w-48 shadow-md rounded-lg bg-white p-4">
-        <h2 className="font-bold text-red-600 text-lg mb-4">Food items</h2>
-        <ul className="space-y-3">
-          {categories.map((cat) => (
-            <li key={cat}>
-              <Link
-                href={`/menu/${cat.toLowerCase().replace(/\s/g, '-')}`}
-                className="block bg-orange-600 text-white py-2 text-center rounded hover:bg-orange-700"
-              >
-                {cat}
-              </Link>
-            </li>
-          ))}
-        </ul>
-      </div>
+  const categories = [
+    { name: 'Burgers', path: 'burger' },
+    { name: 'Main Course', path: 'mainCourse' },
+    { name: 'Pasta', path: 'pasta' },
+    { name: 'Pastries', path: 'pastry' },
+  ];
 
-     
-      <div className="text-gray-600 italic">
-        ← Select a food category to explore delicious items.
+  return (
+    <div className="container mx-auto px-4 py-8">
+      <h1 className="text-4xl font-bold mb-8 text-center">Our Menu</h1>
+
+      <div className="flex flex-wrap justify-center gap-4">
+        {categories.map((category) => (
+          <Link
+            key={category.path}
+            href={`/menu/${category.path}`}
+            className="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition"
+          >
+            {category.name}
+          </Link>
+        ))}
       </div>
     </div>
   );

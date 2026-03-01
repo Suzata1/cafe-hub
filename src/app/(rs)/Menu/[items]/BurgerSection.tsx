@@ -2,9 +2,9 @@ import React from 'react';
 
 const burgerItems = [
   { name: "Classic Burger", img: "/images/burger1.png" },
-  { name: "Cheese Burger", img: "/images/burger2.png" },
-  { name: "Veggie Burger", img: "/images/burger3.png" },
-  { name: "Spicy Burger", img: "/images/burger4.png" },
+  { name: "Cheese Burger", img: "/images/burger4.png" },
+  { name: "Veggie Burger", img: "/images/burger2.png" },
+  { name: "Spicy Burger", img: "/images/burger1.png" },
 ];
 
 const BurgerSection = () => {
