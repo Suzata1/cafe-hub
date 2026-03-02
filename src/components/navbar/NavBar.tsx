@@ -36,7 +36,7 @@ const NavBar = () => {
 
             {/* Location Selector */}
             <select
-              className="bg-orange-600 text-white px-4 py-1 rounded text-sm"
+              className="bg-orange-700  text-white  py-1 rounded text-sm hover:bg-white hover:text-black"
               value={location}
               onChange={(e) => setLocation(e.target.value)}
             >
