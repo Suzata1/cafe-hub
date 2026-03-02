@@ -8,7 +8,7 @@ const socialMedias = [
     id: '1',
     title: 'Burger',
     href: '/menu/burger',
-    image: '/images/pastry.png',
+    image: '/images/burger1.png',
     price: 5.99,
   },
   {
@@ -22,14 +22,14 @@ const socialMedias = [
     id: '3',
     title: 'Pasta',
     href: '/menu/pasta',
-    image: '/images/potato.png',
+    image: '/images/pasta1.png',
     price: 6.75,
   },
   {
     id: '4',
     title: 'Pastry',
     href: '/menu/pastry',
-    image: '/images/pastry.png',
+    image: '/images/pastry4.png',
     price: 4.25,
   },
 ];
@@ -50,8 +50,8 @@ const ExploreSection = () => {
             <Link href={social.href}>
             
               <h3 className="text-center font-semibold bg-red-500 text-white">{social.title}</h3>
-              <div className='w-full flex items-center h-[290px] gap-4 mb-2'>
-              <Image src={social.image}
+              <div className='w-full flex items-center justify-center h-[290px] gap-4 mb-2'>
+              <Image src={social.image} 
               alt={social.title} height={290} width={290} className='object-contain'
               /></div>
               

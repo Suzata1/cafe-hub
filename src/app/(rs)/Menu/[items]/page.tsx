@@ -12,6 +12,7 @@ type MenuCategory = 'burger' | 'mainCourse' | 'pasta' | 'pastry';
 export default function MenuItemPage() {
   const params = useParams();
   const items = params.items as string | undefined;
+  
 
   // Map URL param to component
   const sections: Record<MenuCategory, JSX.Element> = {
